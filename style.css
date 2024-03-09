@@ -1,0 +1,142 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana;
+	outline: none; border: none;
+	text-decoration: none;
+}
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top: 6rem;
+	overflow-x: hidden;
+}
+
+header{
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	background: powderblue;
+	padding: 2rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .navbar a {
+	font-size: 2rem;
+	padding: 0 6.5rem;
+	color: black;  
+}
+
+header .navbar :hover {
+	color: white;
+}
+
+.about{
+	padding-top: 8%;
+	font-size: 17px;
+	padding: 0 6.5rem;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: -5%
+}
+
+.aboutus{
+	font-size: 25px;
+	padding-top: 6%;
+	text-align: center;
+
+}
+
+table{
+	font-size: 20px;
+	padding-top: 7%;
+	padding-left: 5%
+}
+
+.topic{
+	padding-top: 20%;
+	text-align: center;
+	font-family: Bradley Hand, cursive;
+	font-size: 75px;
+}
+
+.tagline{
+
+	text-align: center;
+	font-family: courier (monospace);
+	font-size: 20px;
+
+}
+
+body{
+	background: powderblue;
+}
+
+.coverimg{
+	padding: 0 31.5rem;
+	margin-bottom: 0%;
+	size: 35px;
+}
+
+
+.visitors{
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 5px;
+	width: 180px;
+}
+
+.visits{
+	display: inline-flex;
+	height: 185px;
+	margin-right: 7px;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+
+.furries{
+	margin-bottom: 0%;
+	margin-top: 2%;
+	margin-right: 7px;
+    margin-left: 60px;
+}
+
+.horourimg{
+	margin-top: -20%;
+	margin-left: 980px;
+}
+
+.menus{
+	display: inline-flex;
+	height: 185px;
+	margin-right: 7px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.pupsrule{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.goodtime{
+	text-align: right;
+	margin-right: 60px;
+}
+
+.wagsncoffee{
+	text-align: left;
+	margin-left: 60px;
+}
+
+.drinkup{
+	text-align: center;
+	margin-top: 30px;
+}
