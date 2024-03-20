@@ -1,0 +1,112 @@
+.container{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 30px;
+    margin: 15px;
+}
+
+p{
+	font-size: 17px;
+	margin: 8px;
+}
+
+.element{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.element input{
+    width: 100%;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background-color: #eee;
+    border-radius: 40px;
+}
+
+.element input::placeholder{
+    color: #bbb;
+    font-weight: 400;
+}
+
+.button{
+    width: 30%;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button button{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    color: black;
+    background-color: #EDBB99;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.button :hover{
+	color: white;
+	cursor: pointer;
+}
+
+.message{
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.message .success{
+    font-size: 15px;
+    color: green;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+.message .danger{
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    transition: .3s;
+    animation: buttons .3s linear;
+    display: none;
+}
+
+@keyframes buttons{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="allpages.css">
+
+</head>
+<body>
+
+<header>
+	<nav class="navbar">
+		<a href="homePage.html">Home</a>
+		<a href="menu.html">Menu</a>
+		<a href="ourFurryFriends.html"> Furry Friends</a>
+		<a href="visitorMoments.html">Gallery</a>
+		<a href="feedingProgramme.html" class="active">Feeding Program</a>
+		<a href="aboutUs.html">About</a>
+	</nav>
+</header>
+
+    <div class="container">
+        <div class="box">
+
+            <h3>Sign Up</h3>
+            
+            <div class="element">
+            	<p>Name:</p>
+                <input type="text" placeholder="Ravishi Silva" id="name">
+            </div>
+            <div class="element">
+            	<p>Home Town:</p>
+                <input type="text" placeholder="Nearest City" id="hometown">
+            </div>
+            <div class="element">
+            	<p>Whatsapp Number:</p>
+                <input type="text" placeholder="0*********" id="whatsappnumber">
+            </div>
+            <div class="element">
+            	<p>E-mail:</p>
+                <input type="text" placeholder="*********@gmail.com" id="email">
+            </div>
+            <div class="button">
+                <button id="send" onclick="message()">Submit</button>
+            </div>
+            <div class="message">
+                <div class="success" id="success">Your Details Submitted Successfully!</div>
+                <div class="danger" id="danger">Feilds Can't be Empty!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="form.js"></script>
+
+</body>
+</html>
